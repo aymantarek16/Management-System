@@ -88,7 +88,7 @@ function clearInputs() {
 }
 
 // ================================ read product data to table ================================ //
-function showData() {
+function showData() {   
   getTotal();
   let table = "";
 
@@ -127,8 +127,8 @@ function deleteData(i) {
 
 // ================================ delete All product ================================ //
 function deleteAll() {
-  localStorage.clear();
-  dataPro = [];
+    dataPro = [];
+    localStorage.clear();
   showData();
 }
 // ================================ updata product ================================ //
